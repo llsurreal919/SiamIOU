@@ -15,7 +15,7 @@ The SOT tracker used in this method is [SiamRPN](http://openaccess.thecvf.com/co
 4) Other packages can be installed by:   
 `sudo pip install -r requirements.txt` 
 ## Download testing datasets
-Download datasets and put them into current directory. Datasets can be downloaded from [BaiduYun](https://pan.baidu.com/s/18z_119YmTtYkrv39G3v_QQ), and the EB detections also are included.
+Download datasets and put them into current directory. Datasets can be downloaded from [BaiduYun](https://pan.baidu.com/s/18z_119YmTtYkrv39G3v_QQ), and the EB detections also are included. 
 ## Running the tracker
 1) Configure the path of the file and call the main script. You can configure the config.yaml and model.pth by refering to pysot's instructions.
 2) Call the main script.
@@ -43,7 +43,7 @@ The reference results are taken from the [UA-DETRAC results](http://detrac-db.ri
 |SiamIOU        | EB       |21.5\%   | 28.6\%    |23.0\%     |19.6\%     |479.9     |21137.8     |169095.0    |20.1fps         |
 
 #### EB detections
-We obtained our copy of detections from the authors of the original [IOU Tracker](https://github.com/bochinski/iou-tracker).
+These results are evaluated on detections of [EB](http://zyb.im/research/EB/) detector. We obtained the detection results from the original [IOU Tracker](https://github.com/bochinski/iou-tracker).
 
 
 
