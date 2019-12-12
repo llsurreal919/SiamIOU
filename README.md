@@ -17,8 +17,8 @@ The SOT tracker used in this method is [SiamRPN](http://openaccess.thecvf.com/co
 ## Download testing datasets
 Download datasets and put them into current directory. Datasets can be downloaded from [BaiduYun](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA#list/path=%2F), and the EB detections also are included.
 ## Running the tracker
-1)Configure the path of the file and call the main script. You can configure the config.yaml and model.pth by refering to pysot's instructions.
-2)Call the main script.
+1) Configure the path of the file and call the main script. You can configure the config.yaml and model.pth by refering to pysot's instructions.
+2) Call the main script.
 ```bash
 python main.py \
     --config path/to/config.yaml \
@@ -26,9 +26,7 @@ python main.py \
     --dataset UA-DETRAC
 ```
 ## Results from DETRAC Dataset
-To reproduce the reported results, download and extract the [DETRAC-toolkit](http://detrac-db.rit.albany.edu/download), and the detections you want to evaluate.
-Read the txt file of tracking results from tracker into DETRAC-toolkit in turn.
-You should obtain something like the following results for the 'DETRAC-Train' set:
+To reproduce the reported results, download and extract the [DETRAC-toolkit](http://detrac-db.rit.albany.edu/download), and  the detections you want to evaluate. Read the txt file of tracking results from tracker into DETRAC-toolkit in turn. You should obtain something like the following results for the 'DETRAC-Train' set:
 
 ### DETRAC-Test (Overall) Results
 The reference results are taken from the [UA-DETRAC results](http://detrac-db.rit.albany.edu/TraRet) site.
