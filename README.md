@@ -15,7 +15,7 @@ The SOT tracker used in this method is [SiamRPN](http://openaccess.thecvf.com/co
 4) Other packages can be installed by:   
 `sudo pip install -r requirements.txt` 
 ## Download testing datasets
-Download datasets and put them into current directory. Datasets can be downloaded from [BaiduYun](https://pan.baidu.com/s/1js0Qhykqqur7_lNRtle1tA#list/path=%2F), and the EB detections also are included.
+Download datasets and put them into current directory. Datasets can be downloaded from [BaiduYun](https://pan.baidu.com/s/18z_119YmTtYkrv39G3v_QQ), and the EB detections also are included.
 ## Running the tracker
 1) Configure the path of the file and call the main script. You can configure the config.yaml and model.pth by refering to pysot's instructions.
 2) Call the main script.
